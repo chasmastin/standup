@@ -8,5 +8,5 @@ cp ${dir}/marley.sh /tmp/
 launchctl load /Library/LaunchDaemons/com.cg.standup.plist
 cd /tmp/ && curl -O http://www.angelxp.eu/sonnerie/b/m/Bob-Marley-Get-Up-Stand-Up.mp3
 osascript -e 'tell application "Terminal" to do script "/tmp/marley.sh"'
-osascript -e 'set Volume 0'
+osascript -e 'set Volume 6'
 afplay /tmp/Bob-Marley-Get-Up-Stand-Up.mp3
