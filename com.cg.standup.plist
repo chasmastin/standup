@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>GroupName</key>
-	<string>root</string>
+	<string>wheel</string>
 	<key>Label</key>
 	<string>com.cg.standup.plist</string>
 	<key>ProgramArguments</key>
