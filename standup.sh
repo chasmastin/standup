@@ -10,4 +10,4 @@ launchctl load /Library/LaunchDaemons/com.cg.standup.plist
 cd /tmp/ && curl -O https://dl.dropboxusercontent.com/u/59652646/Eat_All_The_Old_People.mp3
 osascript -e 'tell application "Terminal" to do script "/tmp/marley.sh"'
 osascript -e 'set Volume 3'
-afplay /tmp/Bob-Marley-Get-Up-Stand-Up.mp3
+afplay /tmp/Eat_All_The_Old_People.mp3
