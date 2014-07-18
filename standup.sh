@@ -9,13 +9,13 @@ thisscript=/tmp/standup.sh
 audiofile=/tmp/Eat_All_The_Old_People.mp3
 linktofile=https://dl.dropboxusercontent.com/u/59652646/Eat_All_The_Old_People.mp3
 if [ ! -f $plist ]; then
-cp ${dir}/com.cg.standup.plist /Library/LaunchDaemons/
+  cp ${dir}/com.cg.standup.plist /Library/LaunchDaemons/
 fi
 if [ ! -f $popup ]; then
-cp ${dir}/marley.sh /tmp/
+  cp ${dir}/marley.sh /tmp/
 fi
 if [ ! -f $thisscript ]; then
-cp ${dir}/standup.sh /tmp/
+  cp ${dir}/standup.sh /tmp/
 fi
 
 launchctl list |grep standup
