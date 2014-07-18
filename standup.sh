@@ -28,5 +28,5 @@ if [ ! -f $audiofile ]; then
     cd /tmp/ && curl $linktofile > $audiofile
 fi
 osascript -e 'tell application "Terminal" to do script "/tmp/marley.sh"'
-osascript -e 'set Volume 1'
+osascript -e 'set Volume 8'
 afplay $audiofile
