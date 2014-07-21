@@ -7,9 +7,12 @@ plist=/Library/LaunchDaemons/com.cg.standup.plist
 popup=/tmp/marley.sh
 thisscript=/tmp/standup.sh
 audiofile=/tmp/standup.mp3
-#Uncomment the following line for the Cha$ rap version
+#MC Theripy rap version:
 #linktofile=https://dl.dropboxusercontent.com/u/59652646/Eat_All_The_Old_People.mp3
-linktofile=http://www.angelxp.eu/sonnerie/b/m/Bob-Marley-Get-Up-Stand-Up.mp3
+#Bob Marley:
+#linktofile=http://www.angelxp.eu/sonnerie/b/m/Bob-Marley-Get-Up-Stand-Up.mp3
+#techno version:
+linktofile=https://soundcloud.com/henryfong/stand-up#t=0:37
 if [ ! -f $plist ]; then
   cp ${dir}/com.cg.standup.plist /Library/LaunchDaemons/
 fi
